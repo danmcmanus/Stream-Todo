@@ -12,12 +12,12 @@
 
     <ItemGroup>
         <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1422" />
-        <PackageReference Include="Shiny.Logging.AppCenter" Version="1.0.0.533-beta" />
+        <PackageReference Include="Shiny.Logging.AppCenter" Version="1.1.0.1590" />
         <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
         <PackageReference Include="ReactiveUI.Fody" Version="11.0.1" />
         <PackageReference Include="AiForms.SettingsView" Version="0.5.2" />
-        <PackageReference Include="Shiny.Notifications" Version="1.0.0.533-beta" />
-        <PackageReference Include="Shiny.Locations" Version="1.0.0.533-beta" />
+        <PackageReference Include="Shiny.Notifications" Version="1.1.0.1590" />
+        <PackageReference Include="Shiny.Locations" Version="1.1.0.1590" />
         <PackageReference Include="Xamarin.Forms.Maps" Version="4.4.0.991265" />
         <PackageReference Include="XF.Material" Version="1.5.7" />
     </ItemGroup>

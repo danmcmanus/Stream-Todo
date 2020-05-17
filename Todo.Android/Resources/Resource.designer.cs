@@ -15,7 +15,7 @@ namespace Todo.Droid
 {
 	
 	
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
 	public partial class Resource
 	{
 		
@@ -15517,58 +15517,61 @@ namespace Todo.Droid
 			public const int uiScrollGestures = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int uiTiltGestures = 2130903556;
+			public const int uiScrollGesturesDuringRotateOrZoom = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int uiZoomControls = 2130903557;
+			public const int uiTiltGestures = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int uiZoomGestures = 2130903558;
+			public const int uiZoomControls = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int useCompatPadding = 2130903559;
+			public const int uiZoomGestures = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int useViewLifecycle = 2130903560;
+			public const int useCompatPadding = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int viewInflaterClass = 2130903561;
+			public const int useViewLifecycle = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int voiceIcon = 2130903562;
+			public const int viewInflaterClass = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int windowActionBar = 2130903563;
+			public const int voiceIcon = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int windowActionBarOverlay = 2130903564;
+			public const int windowActionBar = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int windowActionModeOverlay = 2130903565;
+			public const int windowActionBarOverlay = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int windowFixedHeightMajor = 2130903566;
+			public const int windowActionModeOverlay = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int windowFixedHeightMinor = 2130903567;
+			public const int windowFixedHeightMajor = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int windowFixedWidthMajor = 2130903568;
+			public const int windowFixedHeightMinor = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int windowFixedWidthMinor = 2130903569;
+			public const int windowFixedWidthMajor = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int windowMinWidthMajor = 2130903570;
+			public const int windowFixedWidthMinor = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int windowMinWidthMinor = 2130903571;
+			public const int windowMinWidthMajor = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int windowNoTitle = 2130903572;
+			public const int windowMinWidthMinor = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int zOrderOnTop = 2130903573;
+			public const int windowNoTitle = 2130903573;
+			
+			// aapt resource value: 0x7F030216
+			public const int zOrderOnTop = 2130903574;
 			
 			static Attribute()
 			{
@@ -21423,7 +21426,7 @@ namespace Todo.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030056,0x7F030057,0x7F030068,0x7F03006D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030099,0x7F0300A8,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B6,0x7F0300B8,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300F5,0x7F030103,0x7F03012A,0x7F03012B,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030166,0x7F030167,0x7F030168,0x7F03016E,0x7F030170,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030193,0x7F030194,0x7F0301AA,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DC,0x7F0301DD,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F030209,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030056,0x7F030057,0x7F030068,0x7F03006D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030099,0x7F0300A8,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B6,0x7F0300B8,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300F5,0x7F030103,0x7F03012A,0x7F03012B,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030166,0x7F030167,0x7F030168,0x7F03016E,0x7F030170,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030193,0x7F030194,0x7F0301AA,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DC,0x7F0301DD,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F03020A,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -21535,8 +21538,7 @@ namespace Todo.Droid
 					2130903544,
 					2130903545,
 					2130903546,
-					2130903561,
-					2130903563,
+					2130903562,
 					2130903564,
 					2130903565,
 					2130903566,
@@ -21545,7 +21547,8 @@ namespace Todo.Droid
 					2130903569,
 					2130903570,
 					2130903571,
-					2130903572};
+					2130903572,
+					2130903573};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -22423,7 +22426,7 @@ namespace Todo.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C0,0x7F0300D3,0x7F0300D4,0x7F0300EF,0x7F0300F7,0x7F03014B,0x7F030172,0x7F03017C,0x7F030189,0x7F030207 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C0,0x7F0300D3,0x7F0300D4,0x7F0300EF,0x7F0300F7,0x7F03014B,0x7F030172,0x7F03017C,0x7F030189,0x7F030208 }
 			public static int[] FloatingActionButton = new int[] {
 					2130903093,
 					2130903094,
@@ -22437,7 +22440,7 @@ namespace Todo.Droid
 					2130903410,
 					2130903420,
 					2130903433,
-					2130903559};
+					2130903560};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -22786,7 +22789,7 @@ namespace Todo.Droid
 			// aapt resource value: 13
 			public const int LottieAnimationView_lottie_url = 13;
 			
-			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F030135,0x7F030146,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030206,0x7F030208,0x7F030215 }
+			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F030135,0x7F030146,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030206,0x7F030207,0x7F030209,0x7F030216 }
 			public static int[] MapAttrs = new int[] {
 					2130903081,
 					2130903130,
@@ -22809,8 +22812,9 @@ namespace Todo.Droid
 					2130903556,
 					2130903557,
 					2130903558,
-					2130903560,
-					2130903573};
+					2130903559,
+					2130903561,
+					2130903574};
 			
 			// aapt resource value: 0
 			public const int MapAttrs_ambientEnabled = 0;
@@ -22867,19 +22871,22 @@ namespace Todo.Droid
 			public const int MapAttrs_uiScrollGestures = 17;
 			
 			// aapt resource value: 18
-			public const int MapAttrs_uiTiltGestures = 18;
+			public const int MapAttrs_uiScrollGesturesDuringRotateOrZoom = 18;
 			
 			// aapt resource value: 19
-			public const int MapAttrs_uiZoomControls = 19;
+			public const int MapAttrs_uiTiltGestures = 19;
 			
 			// aapt resource value: 20
-			public const int MapAttrs_uiZoomGestures = 20;
+			public const int MapAttrs_uiZoomControls = 20;
 			
 			// aapt resource value: 21
-			public const int MapAttrs_useViewLifecycle = 21;
+			public const int MapAttrs_uiZoomGestures = 21;
 			
 			// aapt resource value: 22
-			public const int MapAttrs_zOrderOnTop = 22;
+			public const int MapAttrs_useViewLifecycle = 22;
+			
+			// aapt resource value: 23
+			public const int MapAttrs_zOrderOnTop = 23;
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300AA,0x7F0300F8,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FE,0x7F0300FF,0x7F03017C,0x7F03019F,0x7F0301A0 }
 			public static int[] MaterialButton = new int[] {
@@ -23415,7 +23422,7 @@ namespace Todo.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F03009A,0x7F0300B0,0x7F0300E9,0x7F030100,0x7F03011B,0x7F030175,0x7F030176,0x7F030181,0x7F030182,0x7F0301A2,0x7F0301A7,0x7F03020A }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F03009A,0x7F0300B0,0x7F0300E9,0x7F030100,0x7F03011B,0x7F030175,0x7F030176,0x7F030181,0x7F030182,0x7F0301A2,0x7F0301A7,0x7F03020B }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -23433,7 +23440,7 @@ namespace Todo.Droid
 					2130903426,
 					2130903458,
 					2130903463,
-					2130903562};
+					2130903563};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;

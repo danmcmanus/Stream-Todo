@@ -54,7 +54,7 @@ namespace Todo
             this.WhenAnyValue(x => x.RemindOnDay)
                 .Skip(1)
                 .Where(x => x)
-                .SubscribeAsync(async () =>
+                .SubscribeAsync(async (_) =>
                 {
                     var access = await notifications.RequestAccess();
                     if (access != AccessState.Available)
@@ -67,7 +67,7 @@ namespace Todo
             this.WhenAnyValue(x => x.RemindOnLocation)
                 .Skip(1)
                 .Where(x => x)
-                .SubscribeAsync(async () =>
+                .SubscribeAsync(async (_) =>
                 {
                     var access = await geofences.RequestAccess();
                     if (access != AccessState.Available)
